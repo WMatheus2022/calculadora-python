@@ -4,20 +4,20 @@ def calculadora():
         try:
             num = int(input())
             if(num == 1):
-                a = float(input("digite o numero desejado: "))
-                b = float(input("digite o numero desejado: "))
+                a = int(input("digite o numero desejado: "))
+                b = int(input("digite o numero desejado: "))
                 print("Resultado da soma: ", a + b)
             elif(num == 2):
-                a = float(input("digite o numero desejado: "))
-                b = float(input("digite o numero desejado: "))
+                a = int(input("digite o numero desejado: "))
+                b = int(input("digite o numero desejado: "))
                 print("Resultado da subtracao: ", a - b)
             elif(num == 3):
-                a = float(input("digite o numero desejado: "))
-                b = float(input("digite o numero desejado: "))
+                a = int(input("digite o numero desejado: "))
+                b = int(input("digite o numero desejado: "))
                 print("Resultado da multiplicacao: ", a * b)
             elif(num == 4):
-                a = float(input("digite o numero desejado: "))
-                b = float(input("digite o numero desejado: "))
+                a = int(input("digite o numero desejado: "))
+                b = int(input("digite o numero desejado: "))
                 print("Resultado da divisao: ", a / b)
             elif(num == 0):
                 print("Encerrando calculadora")
